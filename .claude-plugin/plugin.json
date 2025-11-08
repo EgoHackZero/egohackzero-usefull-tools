@@ -1,12 +1,13 @@
 {
   "name": "egohackzero-usefull-tools",
   "version": "1.0.0",
-  "displayName": "EgoHackZero's Useful Tools",
   "description": "A comprehensive collection of specialized AI agents and developer tools for Claude Code, featuring 5 expert agents for research, learning, refactoring, architecture, and documentation, plus conda environment management",
-  "author": "egohackzero",
+  "author": {
+    "name": "egohackzero",
+    "url": "https://github.com/egohackzero/usefull-tools"
+  },
   "license": "MIT",
   "repository": "https://github.com/egohackzero/usefull-tools",
-  "minClaudeCodeVersion": "2.0.0",
   "keywords": [
     "ai-agents",
     "research",
@@ -18,38 +19,6 @@
     "python",
     "code-quality"
   ],
-  "agents": [
-    {
-      "name": "deep-research-agent",
-      "description": "Specialist for comprehensive research with adaptive strategies and intelligent exploration",
-      "category": "analysis"
-    },
-    {
-      "name": "learning-guide",
-      "description": "Teach programming concepts and explain code with focus on understanding through progressive learning",
-      "category": "communication"
-    },
-    {
-      "name": "refactoring-expert",
-      "description": "Improve code quality and reduce technical debt through systematic refactoring",
-      "category": "quality"
-    },
-    {
-      "name": "system-architect",
-      "description": "Design scalable system architecture with focus on maintainability and long-term decisions",
-      "category": "engineering"
-    },
-    {
-      "name": "technical-writer",
-      "description": "Create clear, comprehensive technical documentation tailored to specific audiences",
-      "category": "communication"
-    }
-  ],
-  "commands": [
-    {
-      "name": "conda-run",
-      "description": "Run Python code with conda environment management",
-      "category": "run"
-    }
-  ]
+  "agents": ".claude-plugin/agents",
+  "commands": ".claude-plugin/commands"
 }
