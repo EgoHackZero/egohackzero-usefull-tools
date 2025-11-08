@@ -1,0 +1,21 @@
+{
+  "name": "egohackzero-usefull-tools",
+  "owner": {
+    "name": "EgoHackZero",
+    "contact": "github.com/egohackzero"
+  },
+  "description": "EgoHackZero's comprehensive collection of specialized AI agents and developer tools for Claude Code",
+  "plugins": [
+    {
+      "name": "egohackzero-usefull-tools",
+      "source": "./",
+      "description": "A comprehensive collection of specialized AI agents and developer tools for Claude Code, featuring 5 expert agents for research, learning, refactoring, architecture, and documentation, plus conda environment management",
+      "version": "1.0.0",
+      "author": {
+        "name": "egohackzero",
+        "email": ""
+      },
+      "tags": ["ai-agents", "research", "refactoring", "architecture", "documentation", "learning", "conda", "python", "code-quality"]
+    }
+  ]
+}
