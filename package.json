@@ -1,0 +1,28 @@
+{
+  "name": "egohackzero-usefull-tools",
+  "version": "1.0.0",
+  "description": "A collection of useful tools and commands for Claude Code, including conda environment management",
+  "author": "egohackzero",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "conda",
+    "python",
+    "environment-management",
+    "developer-tools"
+  ],
+  "claudeCode": {
+    "type": "extension",
+    "commands": [
+      {
+        "name": "conda-run",
+        "description": "Run Python code with conda environment management",
+        "file": ".claude/commands/conda-run.md"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egohackzero/usefull-tools"
+  }
+}
