@@ -2,13 +2,9 @@
   "name": "egohackzero-usefull-tools",
   "version": "1.0.0",
   "description": "A comprehensive collection of specialized AI agents and developer tools for Claude Code, featuring 5 expert agents for research, learning, refactoring, architecture, and documentation, plus conda environment management",
-  "author": {
-    "name": "egohackzero",
-    "url": "https://github.com/egohackzero/usefull-tools"
-  },
+  "author": "Yehor",
   "license": "MIT",
-  "repository": "https://github.com/egohackzero/usefull-tools",
-  "keywords": [
+  "tags": [
     "ai-agents",
     "research",
     "refactoring",
@@ -19,6 +15,6 @@
     "python",
     "code-quality"
   ],
-  "agents": ".claude-plugin/agents",
-  "commands": ".claude-plugin/commands"
+  "agents": ".claude/agents",
+  "commands": ".claude/commands"
 }
