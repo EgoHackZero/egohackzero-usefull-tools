@@ -4,6 +4,40 @@
   "description": "A comprehensive collection of specialized AI agents and developer tools for Claude Code, featuring 5 expert agents for research, learning, refactoring, architecture, and documentation, plus conda environment management",
   "author": "Yehor",
   "license": "MIT",
+  "commands": [
+    {
+      "name": "conda-run",
+      "path": ".claude/commands/run/conda-run.md",
+      "description": "Run commands in conda environments"
+    }
+  ],
+  "agents": [
+    {
+      "name": "deep-research-agent",
+      "path": ".claude/agents/deep-research-agent.md",
+      "description": "Specialist for comprehensive research with adaptive strategies and intelligent exploration"
+    },
+    {
+      "name": "learning-guide",
+      "path": ".claude/agents/learning-guide.md",
+      "description": "Teach programming concepts and explain code with focus on understanding through progressive learning"
+    },
+    {
+      "name": "refactoring-expert",
+      "path": ".claude/agents/refactoring-expert.md",
+      "description": "Improve code quality and reduce technical debt through systematic refactoring and clean code principles"
+    },
+    {
+      "name": "system-architect",
+      "path": ".claude/agents/system-architect.md",
+      "description": "Design scalable system architecture with focus on maintainability and long-term technical decisions"
+    },
+    {
+      "name": "technical-writer",
+      "path": ".claude/agents/technical-writer.md",
+      "description": "Create clear, comprehensive technical documentation tailored to specific audiences with focus on usability"
+    }
+  ],
   "tags": [
     "ai-agents",
     "research",
@@ -14,7 +48,5 @@
     "conda",
     "python",
     "code-quality"
-  ],
-  "agents": ".claude/agents",
-  "commands": ".claude/commands"
+  ]
 }
